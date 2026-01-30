@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "commonjs",
+		"allowJs": true,
+		"checkJs": true,
+		"strict": false,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"sourceMap": true
+	},
+	"include": ["src/**/*"],
+	"exclude": [
+		"node_modules",
+		"**/*.spec.ts"
+	]
+  }
